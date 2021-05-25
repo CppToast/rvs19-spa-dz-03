@@ -1,10 +1,11 @@
 #include <SFML/Graphics.hpp>
+#include "UI.h"
 
-int main()
-{
-	sf::RenderWindow window(sf::VideoMode(800, 600), "Hello, SFML world!");
-	window.setFramerateLimit(60);
-	//Cvijet cvijet(&window);
+int main() {
+
+	sf::RenderWindow window(sf::VideoMode(800, 600), "Conway's Game of Life", sf::Style::Titlebar | sf::Style::Close);
+	window.setVerticalSyncEnabled(true);
+	UI ui(&window, 32, 28);
 
 	while (window.isOpen())
 	{
@@ -15,8 +16,7 @@ int main()
 				window.close();
 		}
 
-		window.clear();
-		//cvijet.draw();
+		ui.run();
 		window.display();
 	}
 
