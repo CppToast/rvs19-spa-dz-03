@@ -1,6 +1,6 @@
 #pragma once
 
-/* A* pathfinding implementacija bazirana je na implementaciji koju je napravio Javidx9, a.k.a. OneLoneCoder
+/* A* pathfinding implementacija bazirana je na implementaciji koju je napravio Javidx9 ili OneLoneCoder
  * (https://github.com/OneLoneCoder/videos/blob/master/OneLoneCoder_PathFinding_AStar.cpp).
  * 
  * Njegova je implementacija zasticena GNU GPLv3 licencom, te stoga i ova implentacija mora biti zasticena istom
