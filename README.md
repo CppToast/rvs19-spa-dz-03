@@ -1,4 +1,4 @@
-# gdambic-rvs19-spa-dz-03
+# rvs19-spa-dz-03
 
 Klonirano iz rvs19-spa-dz-02 repozitorija.
 
