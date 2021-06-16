@@ -4,7 +4,7 @@
 int main() {
 
 	sf::RenderWindow window(sf::VideoMode(800, 600), "", sf::Style::Titlebar | sf::Style::Close);
-	//window.setVerticalSyncEnabled(false);
+	//window.setVerticalSyncEnabled(true);
 	UI ui(&window, 32, 28);
 
 	while (window.isOpen())
