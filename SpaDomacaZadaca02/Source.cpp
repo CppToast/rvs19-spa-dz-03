@@ -17,7 +17,7 @@ int main() {
 		}
 
 		ui.run();
-		window.display();
+		//window.display();
 	}
 
 	return 0;
